@@ -1,18 +1,17 @@
 # Deteksi Tumor Otak dengan TensorFlow/Keras di Termux
 
-Proyek ini menyediakan pipeline machine learning untuk melatih sebuah Convolutional Neural Network (CNN) untuk deteksi tumor otak. Versi ini telah ditulis ulang menggunakan **TensorFlow/Keras**, sebuah framework yang lebih umum dan stabil.
+Proyek ini menyediakan pipeline machine learning untuk melatih sebuah Convolutional Neural Network (CNN) untuk deteksi tumor otak. Versi ini telah ditulis ulang menggunakan **TensorFlow/numpy**, sebuah framework yang lebih umum dan stabil.
 
 ## Fitur
 
-- **Framework Standar:** Dibangun dengan TensorFlow/Keras untuk kompatibilitas yang lebih baik.
-- **Pipeline Efisien:** Menggunakan `tf.data` untuk memuat dan memproses gambar secara efisien.
+- **Framework Standar:** Dibangun dengan TensorFlow/Keras untuk kompatibilitas yang lebih baik.- **Pipeline Efisien:** Menggunakan `tf.data` untuk memuat dan memproses gambar secara efisien.
 - **Augmentasi Data:** Menerapkan augmentasi ringan (flip, rotasi) pada data training untuk meningkatkan generalisasi model.
 - **Training Modern:** Menggunakan `model.fit()` dengan callbacks `EarlyStopping` (menghentikan training saat tidak ada peningkatan) dan `ModelCheckpoint` (menyimpan hanya model terbaik).
 - **Logging Metrik:** Menyimpan riwayat training ke file CSV dan menghasilkan plot kurva loss dan akurasi.
 
 ## Prinsip Proyek
 
-Proyek ini mengikuti prinsip-prinsip kunci MLOps untuk training dan evaluasi model yang efektif, seperti yang dicatat oleh bang farel Kurniawan:
+Proyek ini mengikuti prinsip-prinsip kunci MLOps untuk training dan evaluasi model yang efektif, seperti yang dicatat
 
 - **Pemantauan Loss Komparatif:**
   > “Hrs ada 2 perbandingan, loss training sm loss validation”
