@@ -15,11 +15,11 @@ Proyek ini menyediakan pipeline machine learning untuk melatih sebuah Convolutio
 Proyek ini mengikuti prinsip-prinsip kunci MLOps untuk training dan evaluasi model yang efektif, seperti yang dicatat oleh bang farel Kurniawan:
 
 - **Pemantauan Loss Komparatif:**
-  > “[2/11 08.09] bang farel Kurniawan: Hrs ada 2 perbandingan, loss training sm loss validation”
+  > “Hrs ada 2 perbandingan, loss training sm loss validation”
 - **Pemisahan Data yang Benar:**
-  > “[2/11 08.13] bang farel Kurniawan: Tp penggunaan datasetnya beda, jd di preprocessing dilakuin dlu data split (biasanya 80/20)”
+  > “Tp penggunaan datasetnya beda, jd di preprocessing dilakuin dlu data split (biasanya 80/20)”
 - **Early Stopping untuk Mencegah Overfitting:**
-  > “[2/11 08.19] bang farel Kurniawan: Biasanya pake teknik early stopping, jd kita cari epoch yg optimal. Nnti klo semisal validation lossnya mulai naik, berarti itu tanda2 overfitting”
+  > “ Biasanya pake teknik early stopping, jd kita cari epoch yg optimal. Nnti klo semisal validation lossnya mulai naik, berarti itu tanda2 overfitting”
 
 ## Cara Penggunaan
 
